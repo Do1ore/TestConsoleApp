@@ -34,7 +34,7 @@ public class ShapeFactoryTests
         var shapeName = "trianhle";
         double[] dimentions = { 12, 12, 34 };
 
-        //Assert
+        //Act & Assert
         Assert.Throws<ArgumentException>(() => ShapeFactory.CreateShape(shapeName, dimentions));
     }
 }
