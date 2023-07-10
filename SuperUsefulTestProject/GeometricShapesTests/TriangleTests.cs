@@ -13,7 +13,7 @@ public class TriangleTests
         var triangle = new Triangle(20, 16, 24);
         var actual = triangle.CalculateArea();
         //Assert
-        Assert.Equal(expectedResult, actual, 0.0000001);
+        Assert.Equal(expectedResult, actual, 0.000000000000000000000001);
     }
 
     [Fact]

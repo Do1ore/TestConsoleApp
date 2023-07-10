@@ -13,7 +13,7 @@ public class CircleTests
         var circle = new Circle(4);
         var actual = circle.CalculateArea();
         //Assert
-        Assert.Equal(expectedResult, actual, 0.001);
+        Assert.Equal(expectedResult, actual, 0.00000000000000000000000001);
     }
 
     [Fact]
